@@ -2,7 +2,7 @@
 layout: post
 title:  "java成长路线"
 categories: 架构
-tags:  架构路线图  
+tags:  架构 架构路线图  
 author: watermelon
 ---
 * content
