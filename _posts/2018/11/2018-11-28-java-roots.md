@@ -13,6 +13,9 @@ author: watermelon
 
 
 
+### 0、进行中，架构师技能树
+![架构师技能树](https://img-blog.csdnimg.cn/20181214123657769.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ExMjE0NjI0ODUx,size_16,color_FFFFFF,t_70)
+
 ## 1、java技能秘籍
 ![java技能秘籍](http://img2.ph.126.net/xYox2ayUp-cSTy8Yca5dFQ==/6632740122885038345.jpg)
 
