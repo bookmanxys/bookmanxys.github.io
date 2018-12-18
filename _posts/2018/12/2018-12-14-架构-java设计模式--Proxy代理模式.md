@@ -20,4 +20,4 @@ author: watermelon
 
 
 引用：  
-[]()  
+[设计模式---代理模式](https://www.cnblogs.com/daniels/p/8242592.html)  
