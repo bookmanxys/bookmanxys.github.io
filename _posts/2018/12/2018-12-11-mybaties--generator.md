@@ -42,7 +42,47 @@ springboot-start-parent 2.1.0 ：的mysql-connector-java版本是6.x ，
            
 ```
 
+### 3: 会出现逆向生成时将所有不同库但相同表名的生成在了一起
+```xml
+13:23:04.460 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "数据库2..tb_role"
+13:23:04.460 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "roleName", data type 12, in table "数据库2..tb_role"
+13:23:04.460 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "roleCode", data type 12, in table "数据库2..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "seq", data type 4, in table "数据库2..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "disable", data type 4, in table "数据库2..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "数据库3..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "roleName", data type 12, in table "数据库3..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "roleCode", data type 12, in table "数据库3..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "seq", data type 4, in table "数据库3..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "数据库1..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "role_name", data type 12, in table "数据库1..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "role_code", data type 12, in table "数据库1..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "seq", data type 4, in table "数据库1..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "disable", data type -7, in table "数据库1..tb_role"
+13:23:04.461 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "foid", data type 12, in table "数据库1..tb_role"
+13:23:04.463 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "loid", data type 12, in table "数据库1..tb_role"
+13:23:04.463 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "created", data type 93, in table "数据库1..tb_role"
+13:23:04.463 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "modified", data type 93, in table "数据库1..tb_role"
+13:23:04.464 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found override for column "disable" in table "数据库1..tb_role"
+13:23:04.464 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found override for column "disable" in table "数据库2..tb_role"
+```
+看得出，所有不同库但相同表名的生成了，再xml文件里重复出现了
+```xml
+出现三次：
+<resultMap id="BaseResultMap" ...>
+```
+
+处理方法：
+
+```xml
+ <table catalog="指定库名" tableName="tb_role" domainObjectName="Role" ...>
+    <!-- 默认为false，如果设置为true，在生成的SQL中，table名字不会加上限定词:catalog或schema；-->
+    <property name="ignoreQualifiersAtRuntime" value="true"/>
+	...
+ </table>
+```
 
 
 引用：  
-[]()  
+[【项目管理】Mybatis-Generator之最完美配置详解](https://blog.csdn.net/zsq520520/article/details/50952830)  
+[简介如何使用MyBatis generator生成的Example文件](https://blog.csdn.net/m0_37795198/article/details/78848045)  
+[mybatis-generator同名表的处理](https://blog.csdn.net/qq_41872909/article/details/82855750)  
