@@ -23,44 +23,44 @@ mybaties的xml有些写法需要收录
 ```
 比较详细的例子：
 ```java
-        List<User> list = new ArrayList<>();
-        //1.模糊搜索用户名：
-        String name = "测";
-        UserExample ex = new UserExample();
-        ex.createCriteria().andUserNameLike('%'+name+'%');
-        //list = UserMapper.selectByExample(ex);
+List<User> list = new ArrayList<>();
+//1.模糊搜索用户名：
+String name = "测";
+UserExample ex = new UserExample();
+ex.createCriteria().andUserNameLike('%'+name+'%');
+//list = UserMapper.selectByExample(ex);
   
-        //2.通过某个字段排序：
-        String orderByClause = "seq desc, id asc";
-        ex = new UserExample();
-        ex.setOrderByClause(orderByClause);
-        //list = UserMapper.selectByExample(ex);
+//2.通过某个字段排序：
+String orderByClause = "seq desc, id asc";
+ex = new UserExample();
+ex.setOrderByClause(orderByClause);
+//list = UserMapper.selectByExample(ex);
   
-        //3.条件搜索，不确定条件的个数：
-        User User = new User();
-        User.setUserName("后");
-        ex = new UserExample();
-        UserExample.Criteria criteria = ex.createCriteria();
-        if(StringUtils.isNotEmpty(User.getUserName())){
-            criteria.andUserNameLike('%' + User.getUserName() + '%');
-        }
+//3.条件搜索，不确定条件的个数：
+User User = new User();
+User.setUserName("后");
+ex = new UserExample();
+UserExample.Criteria criteria = ex.createCriteria();
+if(StringUtils.isNotEmpty(User.getUserName())){
+    criteria.andUserNameLike('%' + User.getUserName() + '%');
+}
   
-        if(StringUtils.isNotEmpty(User.getPassword())){
-            criteria.andPasswordEqualTo(User.getPassword());
-        }
-        //list = UserMapper.selectByExample(ex);
+if(StringUtils.isNotEmpty(User.getPassword())){
+    criteria.andPasswordEqualTo(User.getPassword());
+}
+//list = UserMapper.selectByExample(ex);
   
-        //4.分页
-        ex = new UserExample();
-        Pagination page = new Pagination();
-        page.setBegin(0);
-        page.setLength(10);
-        ex.setPagination(page);
-        list = userMapper.selectByExample(ex);
+//4.分页
+ex = new UserExample();
+Pagination page = new Pagination();
+page.setBegin(0);
+page.setLength(10);
+ex.setPagination(page);
+list = userMapper.selectByExample(ex);
   
-        for(User r : list){
-            System.out.println(r.toString());
-        }
+for(User r : list){
+    System.out.println(r.toString());
+}
 ```
 
 
