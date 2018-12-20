@@ -100,6 +100,35 @@ XML Parser Error on line 83: 元素类型为 "context" 的内容必须匹配 "(p
   必须按顺序写，不然会报错
 ```
 
+### 5：可以添加一些插件
+* 实体类加上序列化：
+```xml
+<plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+```
+* 实体类加上序列化2：
+```xml
+<plugin type="cn.faceland.springboot.common.generator.plugins.EntitySerializablePlugin" />
+```
+* toString：
+ ```xml
+ <plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+```
+* 分页：
+ ```xml
+ <plugin type="cn.faceland.springboot.common.generator.plugins.MySQLPaginationPlugin"></plugin>
+```
+* 自增长主键：
+ ```xml
+<plugin type="cn.faceland.springboot.common.generator.plugins.MySQLGeneratorPrimaryKeyPlugin"></plugin>
+```
+* 库表注释： 
+ ```xml
+    <commentGenerator type="cn.faceland.springboot.common.generator.plugins.CommentGenerator">
+        <property name="suppressDate" value="true"/>
+        <property name="suppressAllComments" value="true" />
+    </commentGenerator>
+```
+
 引用：  
 [【项目管理】Mybatis-Generator之最完美配置详解](https://blog.csdn.net/zsq520520/article/details/50952830)  
 [简介如何使用MyBatis generator生成的Example文件](https://blog.csdn.net/m0_37795198/article/details/78848045)  
