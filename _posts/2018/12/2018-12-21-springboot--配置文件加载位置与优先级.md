@@ -50,8 +50,8 @@ springboot对配置文件设置了共17个优先级，上述配置文件分别�
 ```
 
 参考：
-[参考官网地址](https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#boot-features-external-config)  
-[SpringBoot - 配置文件加载位置与优先级](https://blog.csdn.net/j080624/article/details/80508606)  
+* [参考官网地址](https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/htmlsingle/#boot-features-external-config)  
+* [SpringBoot - 配置文件加载位置与优先级](https://blog.csdn.net/j080624/article/details/80508606)  
 
 
 

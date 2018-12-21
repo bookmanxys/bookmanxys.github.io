@@ -50,4 +50,4 @@ public class TestServiceImpl {
 @Resource的作用相当于@Autowired，只不过@Autowired按照byType自动注入。
 
 引用：  
-[Spring注解@Resource和@Autowired区别对比](https://www.cnblogs.com/think-in-java/p/5474740.html)  
+* [Spring注解@Resource和@Autowired区别对比](https://www.cnblogs.com/think-in-java/p/5474740.html)  

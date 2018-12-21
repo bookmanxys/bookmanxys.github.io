@@ -241,10 +241,10 @@ a,b,c三个人，正向代理是a通过b向C借钱，a知道c的存在 。反向
 总结：正向代理代理的是客户端，反向代理代理的是服务器。
 
 引用：  
-[Java的三种代理模式](http://www.cnblogs.com/cenyu/p/6289209.html)  
-[设计模式---代理模式](https://www.cnblogs.com/daniels/p/8242592.html)  
+* [Java的三种代理模式](http://www.cnblogs.com/cenyu/p/6289209.html)  
+* [设计模式---代理模式](https://www.cnblogs.com/daniels/p/8242592.html)  
 
 
 拓展：
-[正向反向代理](https://blog.csdn.net/shuoshuo_12345/article/details/79931701)  
-[孤傲苍狼版本](http://www.cnblogs.com/xdp-gacl/p/3706853.html)  
+* [正向反向代理](https://blog.csdn.net/shuoshuo_12345/article/details/79931701)  
+* [孤傲苍狼版本](http://www.cnblogs.com/xdp-gacl/p/3706853.html)  

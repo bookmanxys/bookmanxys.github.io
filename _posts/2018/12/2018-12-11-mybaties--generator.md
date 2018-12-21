@@ -130,7 +130,7 @@ XML Parser Error on line 83: 元素类型为 "context" 的内容必须匹配 "(p
 ```
 
 引用：  
-[【项目管理】Mybatis-Generator之最完美配置详解](https://blog.csdn.net/zsq520520/article/details/50952830)  
-[简介如何使用MyBatis generator生成的Example文件](https://blog.csdn.net/m0_37795198/article/details/78848045)  
-[mybatis-generator同名表的处理](https://blog.csdn.net/qq_41872909/article/details/82855750)  
-[mysql的时区错误问题](https://blog.csdn.net/weixin_39033443/article/details/81711306)  
+* [【项目管理】Mybatis-Generator之最完美配置详解](https://blog.csdn.net/zsq520520/article/details/50952830)  
+* [简介如何使用MyBatis generator生成的Example文件](https://blog.csdn.net/m0_37795198/article/details/78848045)  
+* [mybatis-generator同名表的处理](https://blog.csdn.net/qq_41872909/article/details/82855750)  
+* [mysql的时区错误问题](https://blog.csdn.net/weixin_39033443/article/details/81711306)  

@@ -66,5 +66,5 @@ for(User r : list){
 
 
 引用：  
-[简介如何使用MyBatis generator生成的Example文件](https://blog.csdn.net/m0_37795198/article/details/78848045)  
-[mapper接口中的方法解析](https://blog.csdn.net/biandous/article/details/65630783)  
+* [简介如何使用MyBatis generator生成的Example文件](https://blog.csdn.net/m0_37795198/article/details/78848045)  
+* [mapper接口中的方法解析](https://blog.csdn.net/biandous/article/details/65630783)  
