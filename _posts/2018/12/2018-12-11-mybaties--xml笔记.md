@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "mybaties- - xml收录"
-categories: mybaties
-tags:  xml sql
+categories: 持久层框架
+tags: mybaties xml sql
 author: watermelon
 ---
 * content

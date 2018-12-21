@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "mybaties- - generator"
-categories: mybaties
-tags:  generator 自动化代码
+categories: 持久层框架
+tags:  mybaties generator 自动化代码
 author: watermelon
 ---
 * content

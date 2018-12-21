@@ -12,6 +12,7 @@ type: page
 ## 大佬博客
 * 纯洁的微笑：[微信公众号](https://mp.weixin.qq.com/s/GTBH1aEMPcBlYido78OTAw)
 * 柒's blog：[柒's blog](https://blog.52itstyle.com/)
+* 架构师指南：[微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0MzI1Mjg5Nw==#wechat_redirect)
 
 ## 优质文章
 * [架构师带你玩转分布式锁](https://mp.weixin.qq.com/s/tjAG2ZAoUutqaKHnF7v3lA)
@@ -20,6 +21,8 @@ type: page
 ## mark 开源
 * [分布式秒杀系统](https://gitee.com/52itstyle/spring-boot-seckill)
 * [架构脚手架收录](https://gitee.com/watermelon0620/faceland)
+
+<hr>
 
 ## 工具
 
