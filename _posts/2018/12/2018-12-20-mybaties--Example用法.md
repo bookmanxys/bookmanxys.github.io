@@ -9,7 +9,7 @@ author: watermelon
 {:toc}
 
 ## 前言
-mybaties的xml有些写法需要收录
+mybaties的generator自动生成代码后，实体类的example类可以省下大部分写xml的功夫，通过设置条件Criteria做复杂且自由的查询
 
 
 
