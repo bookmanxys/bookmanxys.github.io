@@ -8,6 +8,7 @@ author: watermelon
 * content
 {:toc}
 
+![Spring](https://wx1.sinaimg.cn/mw1024/005xB1vLly1fyirxftafkj30k00b9764.jpg)
 ## 前言
 spring项目中时不时的会去思考依赖注入时byType 和ByName的区别是啥，就回到了这个问题：@Resource和@Autowired区别是什么，该如何选用
 

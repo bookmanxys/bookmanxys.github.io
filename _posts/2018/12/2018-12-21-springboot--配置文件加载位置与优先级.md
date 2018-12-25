@@ -8,6 +8,7 @@ author: watermelon
 * content
 {:toc}
 
+![配置文件](https://wx2.sinaimg.cn/mw1024/005xB1vLly1fyirxg0y3nj30k00b9abt.jpg)
 ## 前言
 继Memcached之后，考虑尝试选用Redis做缓存架构并使用分布式锁，先安装入门。
 

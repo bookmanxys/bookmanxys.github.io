@@ -8,6 +8,7 @@ author: watermelon
 * content
 {:toc}
 
+![Hibernate](https://wx1.sinaimg.cn/mw1024/005xB1vLly1fyirxf6hsuj30k00b9dg1.jpg)
 ## 前言
 收录些hibernate的点
 
