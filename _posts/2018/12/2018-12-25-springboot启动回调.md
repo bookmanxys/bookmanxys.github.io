@@ -19,10 +19,43 @@ CommandLineRunner、ApplicationRunner 接口是在容器启动成功后的最后
 
 
 ### 1：CommandLineRunner方案
+```java
+@Order(1) //控制顺序
+@Component
+public class PrintSuccessRunner implements CommandLineRunner {
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println("PrintSuccessRunner:i am call back~");
+    }
+}
+```
 
+```java
+@Order(2)
+@Component
+public class PrintStartRunner implements CommandLineRunner {
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println("PrintStartRunner:i am call back~");
+    }
+}
+```
 
 ### 2: ApplicationRunner方案
+```java
+@Component
+public class MyApplicationRunner implements ApplicationRunner{
 
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        System.out.println("===MyApplicationRunner==="+ Arrays.asList(args.getSourceArgs()));
+        System.out.println("===getOptionNames========"+args.getOptionNames());
+        System.out.println("===getOptionValues======="+args.getOptionValues("foo"));
+        System.out.println("==getOptionValues========"+args.getOptionValues("developer.name"));
+    }
+}
+```
+还没搞明白，打了包之后如何传参 -_-
 
 拓展：
 * [CommandLineRunner或者ApplicationRunner接口](https://www.jianshu.com/p/5d4ffe267596)  
