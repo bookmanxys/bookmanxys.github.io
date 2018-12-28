@@ -62,6 +62,9 @@ var bszCaller, bszTag;
 		this.bszs.map(function (b) {
 			var c = document.getElementById("busuanzi_value_" + b);
 			c && (c.innerHTML = a[b])
+			
+			var c2 = document.getElementById("busuanzi_value_" + b + "_2");
+			c2 && (c2.innerHTML = a[b])
 		})
 	},
 	hides: function () {
