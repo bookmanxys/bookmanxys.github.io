@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "springboot--配置文件加载位置与优先级"
-categories: web应用框架
-tags:  配置文件 优先级 springboot
+title:  "springboot--整合lucane"
+categories: 搜索引擎
+tags:  lucene springboot 
 author: watermelon
 ---
 * content

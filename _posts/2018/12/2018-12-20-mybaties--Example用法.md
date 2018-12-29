@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "mybaties- - Example用法"
-categories: mybaties
-tags:  generator
+categories: 持久化框架
+tags:  generator mybaties
 author: watermelon
 ---
 * content

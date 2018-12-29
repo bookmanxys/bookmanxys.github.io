@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "spring- -注解- -@Resource和@Autowired"
-categories: spring
+categories: web应用框架
 tags:  spring 注解
 author: watermelon
 ---

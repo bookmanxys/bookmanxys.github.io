@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "springboot- -注解- -@Async"
-categories: springboot
-tags:  async
+categories: web应用框架
+tags:  async springboot
 author: watermelon
 ---
 * content

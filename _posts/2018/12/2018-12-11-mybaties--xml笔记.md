@@ -2,7 +2,7 @@
 layout: post
 title:  "mybaties- - xml收录"
 categories: 持久层框架
-tags: mybaties xml sql
+tags: mybaties xml 
 author: watermelon
 ---
 * content

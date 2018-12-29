@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "springboot启动回调"
-categories: springboot
-tags:  回调
+categories: web应用框架
+tags:  回调 springboot
 author: watermelon
 ---
 * content

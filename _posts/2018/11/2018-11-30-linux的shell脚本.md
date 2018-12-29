@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "linux— —shell脚本"
-categories: linux
-tags:  crontab 定时任务 
+categories: 计算机
+tags:  crontab 定时任务 linux
 author: watermelon
 ---
 * content

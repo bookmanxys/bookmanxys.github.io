@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "maven- - 打包跳过test"
-categories: maven
-tags:  jar maven
+categories: 团队开发
+tags:  jar maven test
 author: watermelon
 ---
 * content

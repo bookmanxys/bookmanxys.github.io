@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "springboot定时任务- -Spring Task"
-categories: springboot
-tags:  cron 定时任务
+categories: web应用框架
+tags:  cron 定时任务 springboot
 author: watermelon
 ---
 * content
