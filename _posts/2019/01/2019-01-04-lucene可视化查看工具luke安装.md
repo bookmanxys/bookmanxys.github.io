@@ -57,7 +57,7 @@ java.lang.ArrayIndexOutOfBoundsException: 0
  ![nomalluke](https://images.gitee.com/uploads/images/2019/0104/100642_3a5f07ce_1210188.jpeg)
  
  ### 4：如何使用
- * [luke使用篇](https://blog.csdn.net/yelllowcong/article/details/78698595)  
+ * [luke使用篇](https://bookmanxy.github.io/2019/01/04/lucene%E5%8F%AF%E8%A7%86%E5%8C%96%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7luke%E4%BD%BF%E7%94%A8/)  
 
 参考：
 * [Lucene之索引查看工具Luke-yellowcong](https://blog.csdn.net/yelllowcong/article/details/78698595)  
