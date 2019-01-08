@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "springboot集成kafka"
-categories: web应用框架
+categories: web应用框架 队列
 tags:  kafka  队列 springboot
 author: watermelon
 ---

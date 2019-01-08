@@ -19,6 +19,7 @@ type: page
 ## 优质文章
 * [架构师带你玩转分布式锁](https://mp.weixin.qq.com/s/tjAG2ZAoUutqaKHnF7v3lA)
 * [拜托！面试请不要再问我Spring Cloud底层原理](https://mp.weixin.qq.com/s/7cIpSV0dHV5jHdxF4Wdtgw)
+* [github page搭建](https://blog.csdn.net/xudailong_blog/article/details/78762262)
 
 ## mark 开源
 * [分布式秒杀系统](https://gitee.com/52itstyle/spring-boot-seckill)
