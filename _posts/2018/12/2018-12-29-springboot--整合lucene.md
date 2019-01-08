@@ -8,7 +8,7 @@ author: watermelon
 * content
 {:toc}
 
-![lucane](https://wx1.sinaimg.cn/mw1024/005xB1vLgy1fynlg9u5zcj30k00b9gol.jpg)
+![lucane](https://images.gitee.com/uploads/images/2019/0108/203843_a109b9c0_1210188.jpeg)
 ## 前言
 springboot整合lucane的使用
 
